@@ -3,7 +3,7 @@
 \usepackage[largepost]{hedraoptions} %% << %%%%%%%%%%%%%%%%
 \usepackage[baruch]{hedrastyles}
 \usepackage[xetex,chicagofootnotes]{tipografia}
-\usepackage[standart,sempontinhos]{toc}
+\usepackage[standart,compontinhos]{toc}
 \usepackage{hedraextra}
 \usepackage{penalidades}
 \usepackage{graficos}
@@ -18,6 +18,9 @@
 
 \usepackage[switch,modulo,pagewise]{lineno}
 \setlength\linenumbersep{.6cm}
+
+\newfontfamily\Libertine{Linux Libertine O}
+\renewcommand\linenumberfont{\Libertine\normalfont\small}
 
 \newcommand{\forceindent}{\leavevmode{\parindent=1,5em\indent}}
 
